@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-color: #aad2de;
+}
+
+.container{
+    display: inline-block;
+    background-color: #f2f2f4;
+    margin-top: 50px;
+    border-radius: 10px;
+   
+}
+.container h2{
+    color: #4c91ab;
+    margin-top: 20px;
+    margin-bottom: -30px;
+}
+form{
+    padding: 20px;
+}
+
+.input{
+    background-color: #006c90;
+    color: white;
+    padding: 10px 40px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 400px;
+    font-size: 15px;
+}
+
+::placeholder{
+    color: white;
+}
+.loginButton{
+    font-size: 15px;
+    padding: 10px 50px;
+    margin-top: 30px;
+    background-color: #00a6da;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+/* Icon set */
+.icon{
+    position: relative;
+}
+i{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    font-size: 20px;
+    color: white;
+}
+

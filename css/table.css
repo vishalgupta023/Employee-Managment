@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.table-container{
+    width: 100vw;
+    height: 100vh;
+    
+}
+.table{
+    width: 80%;
+    margin: 20px auto;
+
+}
+th{
+    color: white;
+}
+th,td{
+    padding: 15px 10px;
+    text-align: center;
+}
+
+
+.thead{
+    background-color: #993433;
+}
+
+.add-employee{
+    display: block;
+    border: none;
+    padding: 15px 40px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #993433;
+    text-align: center;
+    margin-left: 135px;
+    
+
+}
